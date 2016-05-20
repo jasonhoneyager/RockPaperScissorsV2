@@ -15,5 +15,6 @@ class AI:
         elif moveChoice == 2: Hand = "Paper"
         elif moveChoice == 3: Hand = "Lizard"
         elif moveChoice == 4: Hand = "Scissors"
+        print(self.name,"chose",Hand)
         self.move = moveChoice
         self.hand = Hand

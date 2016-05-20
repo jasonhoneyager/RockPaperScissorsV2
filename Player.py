@@ -30,6 +30,7 @@ class Player:
                 Value = 4
                 Turn = False
             else: print("Please choose a hand:")
+            print(self.name,"chose",Hand)
         self.move = Value
         self.hand = Hand
             
