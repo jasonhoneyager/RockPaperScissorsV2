@@ -6,3 +6,6 @@ class Scoreboard:
     def updateScore(self, roundScore):
         self.score[roundScore] += 1
         print(self.score)
+        
+if __name__=="__main__":
+        unittest.main()

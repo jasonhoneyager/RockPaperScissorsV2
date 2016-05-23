@@ -7,5 +7,5 @@ class Round:
         player1.moveChoice()
         player2.moveChoice()
         
-        
-            
+if __name__=="__main__":
+        unittest.main()

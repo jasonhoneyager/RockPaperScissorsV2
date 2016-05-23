@@ -55,6 +55,7 @@ class Game:
             replay.replayGame()
             self.replayGame = replay.playAgain
                      
-                        
+if __name__=="__main__":
+        unittest.main()                        
 #########################################################################################################
 

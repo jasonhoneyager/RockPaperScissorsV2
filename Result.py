@@ -14,3 +14,6 @@ class Result:
         else:
             print(player2.name,"wins!",player2.hand,"beats",player1.hand)
             self.score = 1
+            
+if __name__=="__main__":
+        unittest.main()

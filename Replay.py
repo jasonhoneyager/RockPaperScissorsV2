@@ -8,3 +8,6 @@ class Replay:
         replay = replay.lower()
         if replay in ("n","no"):
             self.playAgain = False
+            
+if __name__=="__main__":
+        unittest.main()

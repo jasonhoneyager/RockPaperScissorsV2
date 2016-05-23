@@ -18,3 +18,6 @@ class AI:
         print(self.name,"chose",Hand)
         self.move = moveChoice
         self.hand = Hand
+        
+if __name__=="__main__":
+        unittest.main()
